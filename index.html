@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hello, this is Keira's portfolio. Learn a little about Keira and explore the portfolio.">
-    <title>Keira’s Portfolio</title>
+    <meta name="description" content="Welcome to Keira's Canvas. Get to know Keira and explore a shelf of projects.">
+    <title>Keira’s Canvas</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -21,10 +21,10 @@
 
     <main id="main">
       <section class="hero page-width">
-        <h1>Hello, this is<br>Keira’s <span class="highlight">portfolio.</span></h1>
+        <h1>Welcome to<br>Keira’s <span class="highlight">Canvas</span></h1>
         <div class="hero-bottom">
           <p class="intro">Take a look around, get to know me, and explore some of the things I’ve been working on.</p>
-          <a class="text-link" href="projects.html">Explore my portfolio <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="projects.html">Explore the projects <span aria-hidden="true">↗</span></a>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="art-sun"></div>
@@ -52,27 +52,31 @@
       <section class="selected-work page-width" aria-labelledby="selected-work-title">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">A few things I care about</p>
-            <h2 id="selected-work-title">Good work, good people.</h2>
+            <p class="eyebrow">Pick a project off the shelf</p>
+            <h2 id="selected-work-title">A little shelf of ideas.</h2>
           </div>
           <a class="text-link" href="projects.html">See all projects <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="work-grid">
-          <a class="work-card work-card-peach" href="projects.html">
-            <span class="work-number">01 / DIGITAL EXPERIENCES</span>
-            <span class="work-illustration illustration-window" aria-hidden="true"><span></span><i></i><i></i><i></i></span>
-            <span class="work-title">Web that welcomes.</span>
-            <span class="work-meta">Purposeful websites &amp; products</span>
-            <span class="work-arrow" aria-hidden="true">↗</span>
+        <nav class="bookshelf" aria-label="Projects">
+          <a class="shelf-book shelf-book-peach" href="projects.html#digital-experiences">
+            <span class="book-number">01</span>
+            <span class="book-ornament" aria-hidden="true">✳</span>
+            <span class="book-title">Digital<br>experiences</span>
+            <span class="book-meta">WEBSITES &amp; PRODUCTS</span>
           </a>
-          <a class="work-card work-card-lilac" href="projects.html">
-            <span class="work-number">02 / VISUAL STORIES</span>
-            <span class="work-illustration illustration-orbit" aria-hidden="true"><span>hello<br>there</span></span>
-            <span class="work-title">A little more character.</span>
-            <span class="work-meta">Identity, art direction &amp; details</span>
-            <span class="work-arrow" aria-hidden="true">↗</span>
+          <a class="shelf-book shelf-book-lilac" href="projects.html#visual-identities">
+            <span class="book-number">02</span>
+            <span class="book-ornament" aria-hidden="true">✿</span>
+            <span class="book-title">Visual<br>identities</span>
+            <span class="book-meta">BRANDS &amp; STORIES</span>
           </a>
-        </div>
+          <a class="shelf-book shelf-book-green" href="projects.html#creative-experiments">
+            <span class="book-number">03</span>
+            <span class="book-ornament" aria-hidden="true">✴</span>
+            <span class="book-title">Creative<br>experiments</span>
+            <span class="book-meta">SIDE QUESTS &amp; IDEAS</span>
+          </a>
+        </nav>
       </section>
 
       <section class="home-cta page-width">
