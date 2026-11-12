@@ -14,4 +14,5 @@ Shared styles are in `styles.css`. Update the example contact email in
 Pages; no build step or dependencies are required.
 
 To personalize the look, adjust the color variables at the top of `styles.css`
-and update the copy in the HTML pages.
+and update the copy in the HTML pages. The project books on `projects.html`
+open to editable project descriptions.
