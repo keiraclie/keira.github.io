@@ -1049,6 +1049,18 @@ body { background: var(--paper); }
 .about-page .values-grid article > span { color: #ab7390; }
 .about-page .values-grid h3 { font-size: 19px; }
 
+.about-photo-strip {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  width: min(100%, 1000px);
+  margin: 16px auto 48px;
+}
+
+.about-photo-strip .photo-card img {
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
 @media (max-width: 720px) {
   .about-page .about-layout { grid-template-columns: 1fr; gap: 34px; }
   .about-page .about-art { min-height: 340px; }
